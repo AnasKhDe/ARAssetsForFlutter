@@ -1,0 +1,241 @@
+{
+    "asset": {
+        "generator": "https://3dviewer.net",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0
+        },
+        {
+            "mesh": 1
+        }
+    ],
+    "materials": [
+        {
+            "name": "Kupfer mit Patina",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                }
+            },
+            "emissiveFactor": [
+                0,
+                0,
+                0
+            ],
+            "doubleSided": true,
+            "alphaMode": "OPAQUE"
+        },
+        {
+            "name": "Steinzeug",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "baseColorTexture": {
+                    "index": 1
+                }
+            },
+            "emissiveFactor": [
+                0,
+                0,
+                0
+            ],
+            "doubleSided": true,
+            "alphaMode": "OPAQUE"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Bronze",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 0
+                }
+            ]
+        },
+        {
+            "name": "Stein",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TEXCOORD_0": 7
+                    },
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 4
+                }
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "model.bin",
+            "byteLength": 275608
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 52776
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 52776,
+            "byteLength": 74160
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 126936,
+            "byteLength": 74160
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 201096,
+            "byteLength": 49440
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 250536,
+            "byteLength": 5232
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 255768,
+            "byteLength": 7440
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 263208,
+            "byteLength": 7440
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 270648,
+            "byteLength": 4960
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 13194,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 6180,
+            "min": [
+                -113.07010065122185,
+                -1.0353588756412238,
+                -70.84087629544436
+            ],
+            "max": [
+                173.3362546969048,
+                165.47543857103648,
+                18.07003755122122
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 6180,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 6180,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1308,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 620,
+            "min": [
+                -212.31170654296875,
+                0.48492342233657837,
+                -68.45824432373047
+            ],
+            "max": [
+                -5.204045295715332,
+                88.149658203125,
+                56.61280822753906
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 620,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 620,
+            "type": "VEC2"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Patina copper_200_DB.jpg"
+        },
+        {
+            "uri": "Terracotta_200_DB50.jpg"
+        }
+    ],
+    "textures": [
+        {
+            "source": 0
+        },
+        {
+            "source": 1
+        }
+    ]
+}
